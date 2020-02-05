@@ -1,0 +1,81 @@
+/*CSS DOCUMENT*/
+
+
+img {
+width: 100%;
+}
+
+div.container {
+align-content: center; 
+margin: 3em;
+}
+
+div.container header {
+text-align: center;    
+}
+
+div.container h1 {
+align-content: center; 
+color: #abd7db;
+font-family: sans-serif;
+font-size: 2.5em;
+text-transform: uppercase;
+}
+
+div.container h2 {
+align-content: center; 
+color:#fad5a2;
+font-family:monospace;
+text-transform: lowercase;
+font-size:1.5em; 
+}
+
+div.introimage {
+align-content: center; 
+}
+
+div.intro p {
+font: Georgia, serif;
+text-align: left;
+text-indent: inherit;
+font-size: 1.5em;
+}
+
+div.ingredients {
+margin-top: 1em;
+font-size: 1em;
+font-family: Georgia, serif;
+text-align: left;   
+width: 50%;
+float: left;
+line-height: 1.25em;
+}
+
+div.ingredients h3 {
+margin-top: 1em;
+font-size: 1.5em;
+text-transform: uppercase; 
+font-family: sans-serif;
+text-align: left;  
+color: #abd7db;
+}
+
+
+div.directions {
+margin-top: 1em;
+font-size: 1em;
+font-family: Georgia, serif;
+text-align: left;   
+width: 50%;
+float: left;
+line-height: 1.25em;
+}
+
+div.directions h3 {
+margin-top: 1em;
+font-size: 1.5em;
+text-transform: uppercase; 
+font-family: sans-serif;
+text-align: left;   
+color: #abd7db;
+}
