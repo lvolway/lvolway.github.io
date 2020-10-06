@@ -1,0 +1,162 @@
+/*CSS DOCUMENT*/
+
+h1, h2, h3, h4, p, ul, ol, li {margin: 0; padding:0; font-size: 1em; font-weight: normal;} 
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  background-color: #fafafa;
+  text-decoration-color: #333333;
+  text-align: center;
+}
+
+h1 {
+  color: #64abf5;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 1.75em;
+  margin: 1.5em 0em 0.5em 0em;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  text-transform: none;
+  font-size: 1em;
+  margin-top: 0.25em;
+  text-align: center;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  margin: 0.25em, 0em, 0em, 0em;
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+}
+
+.header .maincontent {
+  clear: both;
+  align-content: center;
+}
+
+.maincontent {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 0.80em;
+  line-height: 1.75em;
+  letter-spacing: 0.025em;
+  margin: 0 auto;
+}
+
+.footer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: left;
+  margin: auto;
+  line-height: 2em;
+  background-color: #dceef5;
+  padding-top: 0.5em;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* history columns */
+.row {
+    margin: 0, auto;
+    align-content: center;
+}
+
+.column1 {
+  float: left;
+  max-width: 45%;
+  text-align: left;
+  background: #dceef5;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.column2 {
+  float: left;
+  max-width: 45%;
+    text-align: left;
+    background: #dceef5;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* history columns end */
+
+.comparison p {
+    max-width: 65%;
+    margin: auto;
+}
+
+/* photo grid */
+@media screen and (min-width: 600px) {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* simple gallery */
+
+  .photo-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+  }
+
+  .card-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+
+  .card-big {
+    grid-row: span 2 / auto;
+    grid-column: span 2 / auto;
+  }
+}
+
+/* Medium screens */
+.photo-grid {
+  grid-auto-flow: dense;
+}
+
+/* photo grid end*/
