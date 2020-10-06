@@ -1,6 +1,11 @@
 /*CSS DOCUMENT*/
 
-h1, h2, h3, h4, p, ul, ol, li {margin: 0; padding:0; font-size: 1em; font-weight: normal;} 
+h1, h2, h3, h4, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: normal;
+}
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -27,7 +32,7 @@ h2 {
   font-size: 1.25em;
   text-transform: uppercase;
   margin-top: 0.5em;
-  margin-bottom: 0.25em
+  margin-bottom: 0.25em;
 }
 
 h3 {
@@ -86,8 +91,8 @@ img {
 
 /* history columns */
 .row {
-    margin: 0, auto;
-    align-content: center;
+  margin: 0, auto;
+  align-content: center;
 }
 
 .column1 {
@@ -103,11 +108,11 @@ img {
 .column2 {
   float: left;
   max-width: 45%;
-    text-align: left;
-    background: #dceef5;
-    margin: auto;
-    padding: 10px;
-    border: 1px solid black;
+  text-align: left;
+  background: #dceef5;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid black;
 }
 
 /* Clear floats after the columns */
@@ -119,8 +124,13 @@ img {
 /* history columns end */
 
 .comparison p {
-    max-width: 65%;
-    margin: auto;
+  max-width: 65%;
+  margin: auto;
+}
+
+.comparison img {
+  max-width: 400px;
+  width: 20%;
 }
 
 /* photo grid */
